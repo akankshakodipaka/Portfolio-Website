@@ -1,0 +1,99 @@
+body{
+    margin:0;
+    color:black;
+    border: 30px solid black;
+}
+.navbar {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+}
+.navbar-left {
+    padding-left: 50px;
+   
+
+}
+.logo-image{
+    height: 100px;
+}
+.navbar-right{
+    padding-right: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color:black;
+    
+}
+.navbar-right a:hover{
+    color:rgb(230,104,59);
+}
+.a-element{
+    padding: 9px;
+    margin:10px;
+ 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.home{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 60vh;
+   
+}
+.home-left{
+    width:50vw;
+    text-align: right;
+    padding-left:200px ;
+    font-family: Garamond;
+    font-size: 20px;
+   letter-spacing: 1px;
+    
+}
+.home-right{
+   width:90vh;
+  padding-left: 50px;
+}
+.SKILLS{
+    font-size: large;
+   
+text-align: center;
+
+}
+.ser-h1{
+    font-family: 'Ubuntu',sans-serif;
+    color:black;
+    letter-spacing: 2px;
+    font-size: 30px;
+    font-family:Garamond;
+
+}
+.projects{
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+
+}
+.sub-skills{
+    display:flex;
+    flex-direction: row;
+    text-align: center;
+   
+}
+.sub-skillscard{
+    text-align: center;
+    border:3px solid black;
+    margin: 80px;
+    width:700px;
+}
+.contact{
+    text-align: center;
+}
+.contact-info{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+}
